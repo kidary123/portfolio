@@ -5,7 +5,7 @@ admin_path: "/fernando"
 webhook_url: 
 sections:
 - type: document
-  path: portfolio/index.md
+  path: portfolio/home
   label: Homepage
   templates:
   - settings
