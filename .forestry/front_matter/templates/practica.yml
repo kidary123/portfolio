@@ -1,4 +1,19 @@
 ---
 label: Practica
 hide_body: false
-fields: []
+fields:
+- name: titulo_home
+  type: text
+  config:
+    required: false
+  label: Titulo Home
+  hidden: false
+- name: texto_de_prueba123456789
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: texto de prueba123456789
